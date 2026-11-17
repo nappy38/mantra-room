@@ -1,4 +1,4 @@
-const CACHE_NAME = "mantra-room-v6";
+const CACHE_NAME = "mantra-room-v7";
 const APP_SHELL = ["./", "index.html", "manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {

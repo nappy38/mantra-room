@@ -189,7 +189,7 @@ function updateTrackInfo(){
   const t=TRACKS[trackIndex];
   trackNameEl.textContent=t.name; trackDescEl.textContent=t.desc;
   player.style.display=t.video?"block":"none";
-  ringEl.style.display=t.video?"none":"";
+  ringEl.style.display="none";
   [...tracklistEl.children].forEach((el,i)=>el.classList.toggle("active",i===trackIndex));
 }
 async function loadTrack(i,autoplay){
